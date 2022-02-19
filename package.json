@@ -1,0 +1,21 @@
+{
+  "name": "m3u8-cors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy_server.js",
+  "scripts": {
+    "start": "nodemon proxy_server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "got": "^12.0.1",
+    "http-proxy-middleware": "^2.0.3",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
