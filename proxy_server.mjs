@@ -8,7 +8,7 @@ import got from 'got';
 import stream from 'stream';
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 const Transform = stream.Transform;
 
 app.get('/fetch_ts', async (req, res) => {
